@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Karla:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.body{
+    height: 100vh;
+    width: 100vw;
+    font-family:'karla' sans-serif;
+    Font-size: 16px;
+    display: flex;
+    
+}
+
+.topnav{
+    display: flex;
+    background-color: white;
+    color: hsl(256, 26%, 20%);
+    overflow: hidden;
+    position: relative;
+    height: 10vh;
+    justify-content: space-between;
+
+}
+
+.title{
+    align-content: center;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.bb{
+    flex-direction: row; 
+    margin-left: auto;
+    cursor: pointer; 
+}
+
+
+.barra{
+    display: none;
+}
+
+
+
+
+
+.pic{
+    height: 60vh;
+    width: 100vw; 
+}
+
+.deskimg{
+    display: none;
+}
+
+.vio{
+    background-color:hsl(256, 26%, 20%);
+    background-image: url(images/bg-pattern-intro-left-mobile.svg);
+    background-repeat: no-repeat;
+    color: white;
+    width: 100vw;
+    text-align: center;
+    
+}
+
+.line{
+    display: none;
+}
+
+.btit{
+    color: hsl(0, 0%, 98%);
+    text-align: center;
+}
+
+
+.cc{
+    display: inline-block;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color:hsl(256, 26%, 20%); 
+    color:white;
+    border-color: white;
+    
+}
+
+.viob{
+    position: absolute;
+    right: 0;
+    background-position-y: top;
+    top: 76%;
+    
+    
+
+}
+
+hr {
+    width:50%;
+    margin:0 auto;
+}
+
+.diff{
+    text-align: center;
+}
+
+.pa{
+    color: hsl(216, 30%, 68%);
+}
+
+.laq{
+    border: solid;
+    height: 40vh;
+    margin: 30px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    border:hsl(256, 26%, 20%); 
+    background-color: hsl(256, 26%, 20%); 
+    background-image: url(images/bg-pattern-intro-right-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
+.hola{
+    text-align: center;
+    color:hsl(256, 26%, 20%) ;
+    background-image: url(images/bg-pattern-footer-mobile.svg);
+
+}
+
+.hra{
+    width:90%;
+    padding: 2px;
+    margin:0 auto;
+}
+
+.last{
+    text-align: center;
+    color: hsl(256, 26%, 20%);
+    font-size: small;
+    font-weight: bold;
+}
+
+.lasttitle{ 
+    color: gray;
+}
+
+@media screen and (min-width: 900px) {
+
+/* below in green is to test if we have a white area to the right
+of the screen */
+/* html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; */
+
+.topnav{
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    
+} 
+
+.bb{
+    display: none;
+}
+
+.barra{
+    display: flex;
+    width: 420px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ff{
+    border: 1px solid black;
+    padding: 5px 12px;
+    margin-left: 15px;
+}
+
+.pic{
+    display: none;
+}
+
+.vio{
+    height: 80vh;
+    flex-direction: column;
+}
+
+.deskimg{
+    display: flex;
+    height: 70vh;
+    width: 50vw;
+    position:relative;
+    top: 100px;
+    left: 200px;
+    float: right;
+    
+}
+
+.line{
+    text-align: left;
+    position: relative;
+    left: 20px;
+    top: 50px;
+}
+
+.btit{
+    text-align: left;
+    position: relative;
+    left: 20px;
+    top: 90px;
+
+}
+
+p{
+    text-align: left;
+    position: relative;
+    left: 20px; 
+    top: 90px;
+}
+
+.cc{
+    text-align: left;
+    position: relative;
+    left: 20px; 
+    top: 90px;
+}
+
+}
